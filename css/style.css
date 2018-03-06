@@ -1,0 +1,411 @@
+/*Because the navigation bar is fixed, so all of the elements must move down 140px*/
+.about_main, .photo_div_1, .education_div, .contact_main, .skills_show, .photoBg
+{
+    position: relative;
+    top:140px;
+}
+
+/*display*/
+.about_main .right, .photo_set, .education_right, .skills_show h2, .bar
+{
+    display: inline-block;
+}
+
+
+/*animation fadeIn*/
+.contact_main, .about_main, .colorPart, .photo_div_1, .education_div, iframe, .photoBg, .end, footer, .aboutTable
+{
+    opacity: 0;
+    animation: fadeIn 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    -webkit-animation: fadeIn 1s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+/*These are the styles of index*/
+.index
+{
+    background-image: url(../image/slider.png);
+    background-repeat:no-repeat; 
+    background-attachment:fixed;
+    background-size: 100%;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+}
+
+.index h2
+{
+    position: relative;
+    top: 50%;
+    margin: 0;
+    font-family: juraDemiBold;
+    font-size: 45px;
+}
+
+.index img
+{
+    width: 100%;
+    opacity: 0.5;
+}
+
+.indexDiv
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 500px;
+    padding: 30px 0 0 0;
+    background-color: rgb(250, 250,250);
+}
+
+.indexDiv h1
+{
+    text-align: center;
+    font-family: flamante;
+    font-size: 32px;
+}
+
+.indexAText
+{
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+    line-height: 1.5;
+}
+
+.indexDisplay
+{
+    width: 26%;
+    display: inline-block;
+    padding: 15px;
+    height: 400px;
+}
+
+.indexDisplay img
+{
+    width: 100%;
+}
+
+.indexDisplay p
+{
+    margin: 10px 0 0 0;
+    font-size: 30px;
+    font-family: juraDemiBold;
+    color: rgb(92, 194, 232);
+}
+
+.indexDiv .Container
+{
+    padding: 50px 40px 30px 70px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 49%;
+    height: inherit;
+    text-align:left;
+}
+
+.Container img
+{
+    width: 100%;
+}
+
+.header h1
+{
+    font-size: 45px;
+    text-align: center;
+    font-family: actor;
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+/*The followings are the styles of CONTACT page!*/
+input
+{
+    height:40px;
+    width: 100%;
+    display:block;
+    margin-bottom: 15px;
+    border: 1.5px solid rgb(92, 194, 232);
+    border-radius: 6px;
+    padding-left: 5px;
+}
+
+.contact_main
+{
+    width: 100%;
+    height: 620px;
+    display: inline-block;
+}
+
+textarea.comment
+{    
+    width: 101%;
+    display:block;
+    margin-bottom: 15px;
+    border: 1.5px solid rgb(92, 194, 232);
+    border-radius: 6px;
+    height:200px;
+    padding: 5px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    
+}
+.contact_left
+{
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 28px;
+    width: 550px;
+    text-align: left;
+}
+
+.contact_left p
+{
+    font-family:juraDemiBold;
+}
+
+
+.contact_left button
+{
+    background-color: rgb(92, 194, 232);
+    border:none;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    width: 200px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#map
+{
+    float:left;
+    width: 650px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+/*The followings are the styles of ABOUT page!*/
+
+.about_main
+{
+    height: 400px;
+    display: inline-block;
+    padding-left: 150px;
+    padding-top: 50px;
+    width: 90%;
+}
+
+.about_main .imgset
+{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: -150px;
+    height: 300px;
+    -webkit-box-shadow: 0px 0px 25px rgb(92, 194, 232);
+    -moz-box-shadow: 0px 0px 25px rgb(92, 194, 232);
+    box-shadow: 0px 0px 25px rgb(92, 194, 232);
+    vertical-align:top;
+}
+
+.about_main .right
+{
+    display: inline-block;
+    width: 660px;
+    height: 300px;
+    font-size: 20px;
+}
+
+.about_main .right h1
+{
+    font-family: juraDemiBold;
+}
+
+.about_main .right p
+{
+    font-family: juraMedium;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.aboutTable
+{
+    text-align: center;
+    border-collapse: collapse;
+    position: relative;
+    width: 100%;
+    height: 750px;
+}
+
+.aboutTable h1
+{
+    font-family: actor;
+    font-size: 40px;
+}
+.aboutTable table
+{
+    display: inline-block;
+    width: 70%;
+}
+.aboutTable td,.aboutTable th
+{
+    padding: 8px;
+    text-align: center;
+    border-bottom: 2px solid rgb(92, 194, 232);
+}
+
+
+.photoBlock a
+{
+    text-decoration: none;
+}
+
+.colorPart
+{
+    height: 500px;
+}
+
+.colorPart h1
+{
+    font-family: juraDemiBold;
+    font-size: 50px;
+}
+.colorPart .part1
+{
+    text-align: center;
+    background-color:  rgb(1, 194, 232);
+}
+
+.colorPart .part2
+{
+    text-align: center;
+    background-color:  rgb(85, 200, 232);
+}
+
+.colorPart .part3
+{
+    text-align: center;
+    background-color:  rgb(130, 200, 232);
+}
+
+.colorPart .part1 h2, .colorPart .part2 h2, .colorPart .part3 h2
+{
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+
+
+.colorPart .part1 p, .colorPart .part2 p, .colorPart .part3 p
+{
+    text-align: left;
+    padding: 0 45px 0 45px;
+    line-height: 1.2;
+}
+
+.colorPart .part1 li, .colorPart .part2 li, .colorPart .part3 li
+{
+    font-size: 22px;
+    text-align: left;
+    padding: 15px;
+}
+
+.colorPart .part1, .colorPart .part2, .colorPart .part3
+{  
+    font-family: juraRegular;
+    float: left;
+    width: 33.33333%;
+    height: 400px;
+    color: white;
+    font-size: 20px;
+    -webkit-box-sizing: border-box;/* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;/* Firefox, other Gecko */
+    box-sizing: border-box;/* Opera/IE 8+ */
+}
+
+
+/*The followings are the styles of PHOTO page!*/
+.photoBg
+{  
+    display: inline-block;
+    width: 100%;
+    height: 1800px;
+    background-color: rgb(251, 251, 251);
+ 
+    text-align: center;
+}
+
+.photoDisplay
+{
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+}
+
+
+.photoBlock
+{
+    display: inline-block;
+    width: 30%;
+    height: 350px;
+    position: relative;
+    background-color: white;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 20px 50px 0; 
+}
+
+.photoBlock img
+{
+    width: 100%;
+}
+
+.photoBlock .container
+{
+    text-align: left;
+    padding: 0 0 10px 20px;
+    margin: 0;
+}
+
+.photoBlock .container h2
+{
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-size: 17px;
+    color: rgb(92, 194, 232);
+}
+
+.photoBlock .container p
+{
+    margin: 0;
+    padding-top: 10px;
+    font-size: 15px;
+    
+}
+
+/*The followings are the styles of EDUCATION page!*/
+.education_div
+{
+    padding: 100px 0 150px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.education_right
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 100px;
+}
+
+mark
+{
+    background-color: rgb(150, 194, 232);
+}

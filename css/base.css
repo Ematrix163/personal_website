@@ -1,0 +1,153 @@
+/*This is the style of all page*/
+body
+{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.nav
+{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    padding: 10px;
+    z-index: 1;
+    -webkit-box-shadow: 0px 0px 10px rgb(150, 150, 150);
+    -moz-box-shadow: 0px 0px 10px rgb(150, 150, 150);
+    box-shadow: 0px 0px 10px rgb(150, 150, 150);
+}
+
+.logo
+{
+    position: fixed;
+    top: 22px;
+    left: 50px;
+    height:45px;
+    width: 80px;
+    z-index: 2;
+}
+
+.header
+{
+    position: relative;
+    top:140px;
+    background-color:rgb(92, 194, 232);
+    width: 100%;
+    height: 100px;
+    animation: top_div_animation 1s; /* Safari and Chrome */
+    -webkit-animation: top_div_animation 1s; 
+    text-align: center;
+    padding: 10px;
+    margin-top: -48px;
+}
+
+.navUl
+{
+    text-align: right;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav li
+{
+    float:left;
+}
+
+li a
+{
+    position: relative;
+    left: 750px;
+    padding: 25px 15px 35px;
+    display: block;
+    text-decoration: none;
+    color: rgb(110, 110, 110); 
+    font-size: 16px;
+    font-family:sans-serif;
+}
+
+li a:hover
+{
+    color: rgb(92, 194, 232); 
+}
+
+li a:active
+{
+    color: rgb(222, 230, 235);
+}
+
+footer
+{
+    text-align:center;
+}
+
+iframe
+{
+    width: 100%;
+    height: 600px;
+    border: 0px;
+}
+
+.video
+{
+    text-align: center;
+    width: 100%;
+    height: 600px;
+}
+
+.end
+{
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    background-color:  rgb(92, 194, 232);
+}
+
+
+.end button
+{
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    width: 22%;
+    height: 65px;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    color: rgb(92, 194, 232);
+    font-size: 16px;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.end a
+{
+    text-decoration: none;
+}
+
+.end p
+{
+    position: relative;
+    top: 20%;
+    color: white;
+    font-size: 30px;
+    font-family: juraLight;
+}
+
+footer p
+{
+    font-family:sans-serif;
+    font-size: 17px;
+}
+
+caption
+{
+    font-size: 35px;
+    font-family: actor;
+}
